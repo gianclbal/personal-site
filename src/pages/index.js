@@ -1,7 +1,11 @@
 import React from "react"
+import {Container} from '../components';
+
 
 const Home = () => {
-  return <div>Hello Gatsby!</div>
+  return (<Container>
+    <h1>Hello World!</h1>
+  </Container>)
 }
 
 export default Home;
