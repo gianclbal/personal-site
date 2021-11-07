@@ -3,15 +3,15 @@ import styled from "styled-components";
 export const ContainerWrapper = styled.div`
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr repeat(12, minmax(auto, 4.2rem)) 1fr; //change this if banner doesn't stretch
+    grid-template-columns: 4.375rem repeat(12, 1fr) 4.375rem; //change this if banner doesn't stretch
     grid-template-rows: 2.5rem 24.5rem 34rem auto 18.125rem 5.5rem;
     gap: 0 1rem;
 
     @media ${props => props.theme.breakpoints.tablet} {
-        grid-template-columnns: 2rem repeat(8, 1fr) 2rem;
+        grid-template-columns: 2.188rem repeat(8, 1fr) 2.188rem ;
     }
 
     @media ${props => props.theme.breakpoints.mobile}{
-        grid-template-columnns: 1rem repeat(4, 1fr) 1rem;
+        grid-template-columns: 0.781rem repeat(4, 1fr) 0.781rem;
     }
 `
