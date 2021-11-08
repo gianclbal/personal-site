@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyledAboutWrapper, H2, P } from '../elements';
-import { ContentTabs } from './Tabs';
+import { AboutTabs } from './Tabs';
 export const About = () => {
     
     return(<StyledAboutWrapper>
@@ -9,7 +9,7 @@ export const About = () => {
                 <P size="large" weight="bold">Meet Gian</P>
             </div>
             <div>
-                <ContentTabs></ContentTabs>
+                <AboutTabs></AboutTabs>
                 </div>
         </div>
 

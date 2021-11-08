@@ -35,41 +35,19 @@ export const StyledTabsWrapper = styled.div`
 
     .react-tabs__tab--selected {
       font-weight: 800;
-      background-color: ${props => props.theme.colors.light};
       position: relative;
       color: ${props => props.theme.colors.darkest};
       transition: 0.3 ease;
       border-bottom: 2.5px solid ${props => props.theme.colors.blue};
 
-      /* 
-      :after {
-    border: none;
-    background-color: #0062ff;
-    bottom: -1px;
-    content: '';
-    height: 2px;
-    height: 0.125rem;
-    left: 0;
-    position: absolute;
-    -webkit-transition: background-color .25s cubic-bezier(.4,.14,.3,1),width .25s cubic-bezier(.4,.14,.3,1);
-    transition: background-color .25s cubic-bezier(.4,.14,.3,1),width .25s cubic-bezier(.4,.14,.3,1);
-    width: 0;
-      
-    } */
     }
 
-    /* .content {
-    padding-top: 60px;
-  } */
+  
   }
 `
 export const StyledContent = styled.div`
   padding-top: 60px;
   display: flex;
-
-  /* display: grid;
-      grid-template-columns: 3fr 1fr;
-      grid-gap: 10px; */
 
   .featureImage {
     position: relative;
@@ -81,6 +59,13 @@ export const StyledContent = styled.div`
       position: relative;
       max-width: 540px;
       height: auto;
+    }
+
+    .gatsby-image-wrapper{
+      position: relative;
+      max-width: 540px;
+      height: auto;
+
     }
 
     .skills {
