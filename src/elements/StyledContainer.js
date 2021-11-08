@@ -8,10 +8,13 @@ export const ContainerWrapper = styled.div`
     gap: 0 1rem;
 
     @media ${props => props.theme.breakpoints.tablet} {
-        grid-template-columns: 2.188rem repeat(8, 1fr) 2.188rem ;
+        grid-template-columns: 2.188rem repeat(8, 1fr) 2.188rem;
+        grid-template-rows: 2.5rem 24.5rem 34rem auto 18.125rem 5.5rem;
+        
     }
 
     @media ${props => props.theme.breakpoints.mobile}{
         grid-template-columns: 0.781rem repeat(4, 1fr) 0.781rem;
+        grid-template-rows: 2.5rem 24.5rem auto auto 18.125rem 5.5rem;
     }
 `
