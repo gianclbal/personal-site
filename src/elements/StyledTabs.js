@@ -19,6 +19,7 @@ export const StyledTabsWrapper = styled.div`
 
       :hover {
         border-bottom: 2.5px solid ${props => props.theme.colors.blue};
+        cursor: pointer;
         :after {
           opacity: 1;
           transform: translate3d(-100%, 0, 0);

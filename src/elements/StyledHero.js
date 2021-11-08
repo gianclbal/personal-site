@@ -28,6 +28,7 @@ export const HeroContent = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  transition: ease-in-out 0.3s;
   
 
   h1 {

@@ -51,6 +51,7 @@ export const NavLinks = styled.div`
     justify-content: space-between;
     align-items: left;
     list-style: none;
+    font-size: 13.3px;
 
     li {
       //add list styles for nav links here

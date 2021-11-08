@@ -5,7 +5,7 @@ export const About = () => {
     
     return(<StyledAboutWrapper>
         <div className="inner">
-            <div classNAme="header">
+            <div className="header">
                 <P size="large" weight="bold">Meet Gian</P>
             </div>
             <div>

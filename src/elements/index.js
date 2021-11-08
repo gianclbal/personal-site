@@ -8,3 +8,4 @@ export * from "./StyledTypography";
 export * from "./StyledAbout";
 export * from "./StyledExperience";
 export * from "./StyledTabs";
+export * from "./StyledProjects";

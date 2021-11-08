@@ -8,9 +8,14 @@ const navLinks = [
     url: "#about",
   },
   {
-    name: "Projects and Experience",
+    name: "Experience",
 
-    url: "#projects-and-xp",
+    url: "#experience",
+  },
+  {
+    name: "Projects",
+
+    url: "#projects",
   },
   {
     name: "Contact",
