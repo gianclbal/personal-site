@@ -33,7 +33,7 @@ export const Hero = ({ fixed }) => {
           </H1>
           <div className="cta">
             <H6 weight="regular" color="light">
-              A software engineer with a tyrst for data and human-centered
+              A software engineer with a tryst for data and human-centered
               solutions.
             </H6>
             <Button>

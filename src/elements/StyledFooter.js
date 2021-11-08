@@ -7,6 +7,10 @@ export const FooterWrapper = styled.footer`
   align-items: center;
   height: 88px;
   transition: ease-in-out 0.3s;
+  border-top: 1px solid ${props=> props.theme.colors.dark};
+  :hover{
+    border-top: 1px solid ${props=> props.theme.colors.blue};
+  }
 
 
   background-color: ${props => props.theme.colors.eggshell};

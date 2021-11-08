@@ -1,6 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import { FooterWrapper, FooterSocialWrapper, FootBar } from "../elements"
+import { FooterWrapper, FooterSocialWrapper, FootBar, P } from "../elements"
 
 export const Footer = () => {
   const data = useStaticQuery(graphql`
@@ -24,7 +24,7 @@ export const Footer = () => {
     <FooterWrapper>
       <FootBar>
         <div>
-          <p>Gian Carlo L. Baldonado (c) 2021</p>
+          <P size="small">Gian Carlo L. Baldonado © 2021</P>
         </div>
 
         <FooterSocialWrapper>

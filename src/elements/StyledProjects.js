@@ -28,4 +28,35 @@ export const StyledProjectsWrapper = styled.section`
             display: block;
         }
     }
+
+    .projects-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 16px;
+        position: relative;
+        list-style: none;
+    }
+`
+
+export const StyledProject = styled.li`
+    position: relative;
+    
+    :hover{
+
+    }
+
+    .project-inner {
+        background-color: ${props => props.theme.colors.eggshell};
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        padding: 16px;
+
+        :hover{
+            filter: brightness(110%);
+        }
+
+       
+
+    }
 `
