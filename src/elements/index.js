@@ -2,3 +2,8 @@ export * from "./StyledContainer";
 export * from "./StyledNavbar";
 export * from "./StyledFooter";
 export * from "./StyledHero";
+export * from "./StyledButton";
+export * from "./Icon";
+export * from "./StyledTypography";
+export * from "./StyledAbout";
+export * from "./StyledTabs";
