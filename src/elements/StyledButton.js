@@ -7,6 +7,7 @@ export const ButtonWrapper = styled(props => <Link {...props} />)`
   background-color: ${props => props.theme.colors.blue};
   color: ${props => props.theme.colors.light};
   font-weight: 300;
+  cursor: pointer;
   font-size: 0.875rem;
   width: fit-content; //fits according to the size of the text and img
   transition: filter 0.3s ease;
@@ -16,6 +17,6 @@ export const ButtonWrapper = styled(props => <Link {...props} />)`
 
   &:hover,
   &:focus {
-    filter: brightness(110%);
+    filter: brightness(115%);
   }
 `

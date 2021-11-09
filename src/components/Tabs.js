@@ -54,15 +54,23 @@ export const AboutTabs = () => {
             <div>
               <div className="styledText">
                 <H4>Education</H4>
-                <P size="small">
+                <P size="regular">
                   {" "}
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit, sed quia non numquam eius
-                  modi tempora incidunt ut labore et dolore magnam aliquam
-                  quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-                  exercitationem ullam corporis suscipit laboriosam, nisi ut
-                  aliquid ex ea commodi consequatur?
+                  San Francisco State University, 
+                  <br/>
+                  BS in Computer Science, 3.64
+                  <br/>
+                  Minor in Asian American Studies
+                  <br/>
+                  <br/>
                 </P>
+                  <P size="small">
+                  Activities and Affiliations: Pilipino American Collegiate Endeavor, Cultural Coordinator (2019-2020); Campus Recreation Assessment Student Manager (2018-2020)
+                
+                    </P>
+                  <br/>
+                  <br/>
+              
               </div>
             </div>
           </StyledContent>
@@ -81,20 +89,14 @@ export const AboutTabs = () => {
                 <H6>Skills</H6>
                 <P size="small">
                   {" "}
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit, sed quia non numquam eius
-                  modi tempora incidunt ut labore et dolore magnam aliquam
-                  quaerat voluptatem.
+                  My current skills include working in web development with an agile, user-centered design approach. Recent technologies I use in my projects are React and Redux, Express, Java, and Python.
                 </P>
               </div>
               <div className="styledText">
                 <H6>Interests</H6>
                 <P size="small">
                   {" "}
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit, sed quia non numquam eius
-                  modi tempora incidunt ut labore et dolore magnam aliquam
-                  quaerat voluptatem.
+                  My interests lie in research and using my coding skills to discovering insights that create social impact. Particularly, I want to do research on Natural Language Processing and how its applications can help determine implicit bias or racism for positive social change.
                 </P>
               </div>
             </div>
