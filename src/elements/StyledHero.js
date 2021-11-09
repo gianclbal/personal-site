@@ -6,17 +6,11 @@ export const HeroWrapper = styled.section`
   position: relative;
   transition: ease-in-out 0.3s;
   
-  
- 
-
   @media ${props => props.theme.breakpoints.tablet} {
     grid-column: 1 / span 12;
 
   }
 
-  /* @media ${props => props.theme.breakpoints.tablet} {
-    grid-column: 1 / span 6;
-  } */
 `
 
 export const HeroContent = styled.div`
@@ -50,6 +44,14 @@ export const HeroContent = styled.div`
 
     h6 {
       padding-bottom: 18px;
+    }
+
+    a {
+      width: 250px;
+      img {
+        width: 25px;
+        
+      }
     }
 
     /* @media ${props => props.theme.breakpoints.tablet} {

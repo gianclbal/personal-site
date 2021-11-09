@@ -24,7 +24,7 @@ export const Footer = () => {
     <FooterWrapper>
       <FootBar>
         <div>
-          <P size="small">Gian Carlo L. Baldonado © 2021</P>
+          <P size="small" color="dark">Gian Carlo L. Baldonado © 2021</P>
         </div>
 
         <FooterSocialWrapper>

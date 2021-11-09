@@ -7,7 +7,12 @@ export const NavHeaderWrapper = styled.header`
   display: flex;
   align-items: center;
   border-bottom: 1px solid #ececec;
+  background-color: ${props => props.theme.colors.light};
+ 
+ 
   transition: ease-in-out 0.3s;
+  /* position: fixed; */
+
   /* position: fixed; */
 
   @media ${props => props.theme.breakpoints.tablet} {
@@ -19,18 +24,9 @@ export const Navbar = styled.nav`
   width: 100%;
   position: relative;
   z-index: 2;
-  padding: 6px auto;
+  padding: 8px auto;
   display: flex;
   justify-content: space-between;
-
-  /* grid-column: 2 / span 12;
-    grid-row: 1 / 2;
-    display: flex;
-    align-items: center;
-
-    @media ${props => props.theme.breakpoints.tablet}{
-        grid-column: 2 / span 8;
-    } */
 
   img {
     height: 18.45px;
@@ -56,7 +52,7 @@ export const NavLinks = styled.div`
     li {
       //add list styles for nav links here
       :not(:last-of-type) {
-          padding: 0 40px 0px 0px;
+        padding: 0 40px 0px 0px;
       }
 
       a {

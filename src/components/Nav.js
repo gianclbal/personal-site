@@ -1,6 +1,6 @@
-import React from "react"
+import React, {useState, useEffect} from "react"
 import { NavHeaderWrapper, Navbar, NavLinks } from "../elements"
-import { useStaticQuery, Link, graphql } from "gatsby"
+import { useStaticQuery, Link, graphql } from "gatsby";
 
 const navLinks = [
   {
@@ -25,6 +25,7 @@ const navLinks = [
 ]
 
 export const Nav = () => {
+  
   const data = useStaticQuery(graphql`
     query {
       logo: file(relativePath: { eq: "logo.svg" }) {
@@ -32,6 +33,8 @@ export const Nav = () => {
       }
     }
   `)
+
+// 
 
   return (
     <NavHeaderWrapper>

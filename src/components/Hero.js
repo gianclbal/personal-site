@@ -1,8 +1,9 @@
 import React from "react"
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
-import { HeroContent, HeroWrapper, Icon, H1, H6, P } from "../elements"
+import { HeroContent, HeroWrapper, H1, H6, P } from "../elements"
 import { Button } from "./Button"
+import arrowrighticon from '../images/arrowright.svg';
 
 export const Hero = ({ fixed }) => {
   const data = useStaticQuery(graphql`
@@ -37,10 +38,10 @@ export const Hero = ({ fixed }) => {
               solutions.
             </H6>
             <Button>
-              <P size="regular" color="light" weight="light">
+              <P size="regular" color="light" weight="regular">
                 Connect with Gian
               </P>
-              {/* <img  alt="arrow right" /> */}
+              <img  src={arrowrighticon} alt="arrow right" />
             </Button>
           </div>
       </HeroContent>

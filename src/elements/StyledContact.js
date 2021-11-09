@@ -47,6 +47,28 @@ export const StyledContactWrapper = styled.section`
           list-style: none;
 
           li {
+            padding-bottom: 10px;
+            a{
+              text-decoration: none;
+              color: ${props => props.theme.colors.blue};
+              filter: invert(62%) sepia(75%) saturate(7499%) hue-rotate(214deg) brightness(95%) contrast(103%);
+              
+
+              :visited{
+                color: ${props => props.theme.colors.blue};
+              }
+
+              :hover {
+                border-bottom: ${props => props.theme.colors.blue} solid 2px;
+              
+                
+              }
+            }
+
+            img {
+              width: 12.5px;
+              margin-left: 4px;
+            }
           }
         }
 
