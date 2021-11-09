@@ -17,7 +17,7 @@ export const Contact = () => {
   ]
 
   return (
-    <StyledContactWrapper>
+    <StyledContactWrapper id="contact">
       <div className="inner">
         <div className="header">
           <P size="large" weight="bold">

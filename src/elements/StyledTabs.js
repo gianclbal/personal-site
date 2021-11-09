@@ -58,13 +58,13 @@ export const StyledContent = styled.div`
 
     .portrait {
       position: relative;
-      max-width: 540px;
+      max-width: 640px;
       height: auto;
     }
 
     .gatsby-image-wrapper{
       position: relative;
-      max-width: 540px;
+      max-width: 640px;
       height: auto;
 
     }
@@ -77,8 +77,9 @@ export const StyledContent = styled.div`
   }
 
   .styledText {
-    max-width: 510px;
+    max-width: 810px;
     margin-bottom: 10px;
+
 
     @media ${props => props.theme.breakpoints.mobile} {
       margin: 20px 0;

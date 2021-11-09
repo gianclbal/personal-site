@@ -90,7 +90,7 @@ export const Projects = () => {
   }
 
   return (
-    <StyledProjectsWrapper>
+    <StyledProjectsWrapper id="projects">
       <div className="inner">
         <div className="header">
           <P size="large" weight="bold">

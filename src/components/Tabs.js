@@ -196,7 +196,7 @@ export const ExperienceTabs = () => {
                     alt={title}
                     style={{
                       position: "relative",
-                      maxWidth: "540px",
+                      maxWidth: "640px",
                     }}
                   />
                 </div>
