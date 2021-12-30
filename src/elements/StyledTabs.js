@@ -59,6 +59,7 @@ export const StyledContent = styled.div`
     .portrait {
       position: relative;
       max-width: 640px;
+      min-width: 300px;
       height: auto;
     }
 
