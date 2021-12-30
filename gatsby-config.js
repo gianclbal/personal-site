@@ -1,4 +1,10 @@
 module.exports = {
+  siteMetadata: {
+    title: "Gian Carlo Baldonado's Portfolio Site",
+    description: "Gian's portfolio website built with Gatsby and MDX",
+    url: "https://google.com",
+    author: "Gian Carlo L. Baldonado",
+  },
   /* Your site config here */
   plugins: [
     {

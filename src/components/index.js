@@ -9,3 +9,4 @@ export * from './Projects';
 export * from './Contact';
 export * from './NavLinks';
 export * from './MobileNav';
+export * from './SEO';
