@@ -27,8 +27,11 @@ export const NavLink = ({
   scrollToId,
   activeNavLinkId,
   setActiveNavLinkId,
+  isMobile,
+  closeMobileMenu
 }) => {
   const handleClick = () => {
+    isMobile && closeMobileMenu();
     setActiveNavLinkId(navLinkId)
     document.getElementById(scrollToId).scrollIntoView({
       behavior: "smooth",

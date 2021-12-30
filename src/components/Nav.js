@@ -23,7 +23,7 @@ export const Nav = () => {
   return (
     <NavHeaderWrapper>
       <Navbar>
-        <div>
+        <div className="mylogo">
           <Link to="/">
             <img src={data.logo.publicURL} alt="gianclbal logo" />
           </Link>

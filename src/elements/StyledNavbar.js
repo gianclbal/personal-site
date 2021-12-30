@@ -10,6 +10,7 @@ export const NavHeaderWrapper = styled.header`
   background-color: ${props => props.theme.colors.light};
 
   transition: ease-in-out 0.3s;
+  
   /* position: fixed; */
 
   /* position: fixed; */
@@ -30,6 +31,15 @@ export const Navbar = styled.nav`
   img {
     height: 18.45px;
   }
+
+  @media ${props => props.theme.breakpoints.mobile}{
+    .mylogo {
+      position: fixed;
+      top: 1%;
+    }
+  }
+
+
 `
 
 export const NavLinks = styled.div`
@@ -116,14 +126,22 @@ export const StyledMobileNavLinks = styled.div`
     /* opacity: 50%; */
     width: 100%;
     position: fixed;
+    /* transform: translateY(-100%); */
     padding: 35px 35px 0px 35px;
     z-index: -2;
     top: 0;
     right: 0;
 
+    /* .mylogo {
+      position: relative;
+      background: red;
+      top: 0;
+    } */
+
     .hamburger {
       position: absolute;
-      right: 5%;
+      right: 0%;
+      margin-right: 35px;
       z-index: 1;
       margin-top: 10px;
       /* padding-top: 10px; */

@@ -34,8 +34,7 @@ export const Hero = ({ fixed }) => {
           </H1>
           <div className="cta">
             <H6 weight="regular" color="light">
-              A software engineer with a tryst for data and human-centered
-              solutions.
+              Software engineer aspiring data scientist with passion for social justice & human-centered AI.
             </H6>
             <Button>
               <P size="regular" color="light" weight="regular">

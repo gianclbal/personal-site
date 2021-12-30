@@ -39,7 +39,7 @@ export const HeroContent = styled.div`
   }
 
   .cta {
-    max-width: 484px;
+    max-width: 584px;
     padding-bottom: 48px;
 
     h6 {
