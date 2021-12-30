@@ -106,25 +106,14 @@ export const StyledMobileNavLinks = styled.div`
   display: none;
 
   @media ${props => props.theme.breakpoints.mobile} {
-    display: none;
+    display: flex;
     flex-flow: column nowrap;
     background-color: ${props => props.theme.colors.eggshell};
     position: fixed;
 
     top: 0;
     right: 0;
-    /* height: 100vh;
-   
-    padding-top: 60px;
-    align-items: flex-start;
-
-    span {
-      align-items: flex-start;
-      :not(:last-of-type) {
-        padding: 0 0px 20px 40px;
-      }
-      padding: 0px 0px 20px 40px;
-    }
+    
 
   
    
