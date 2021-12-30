@@ -37,6 +37,9 @@ export const NavLinks = styled.div`
   align-items: center;
   /* margin-left: auto; */
 
+  
+  
+
   span {
     display: flex;
     justify-content: space-between;
@@ -106,13 +109,49 @@ export const StyledMobileNavLinks = styled.div`
   display: none;
 
   @media ${props => props.theme.breakpoints.mobile} {
+
     display: flex;
     flex-flow: column nowrap;
-    background-color: ${props => props.theme.colors.eggshell};
+    background-color: ${props => props.theme.colors.light};
+    /* opacity: 50%; */
+    width: 100%;
     position: fixed;
-
+    padding: 35px 35px 0px 35px;
+    z-index: -2;
     top: 0;
     right: 0;
+
+    .hamburger {
+      position: absolute;
+      right: 5%;
+      z-index: 1;
+      margin-top: 10px;
+      /* padding-top: 10px; */
+      top: 0;
+      
+      cursor: pointer;
+    }
+
+    span {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    list-style: none;
+    font-size: 16px;
+    cursor: pointer;
+   
+      padding: 10px 40px 20px 0px;
+    
+    color: ${props => props.theme.colors.darkest};
+    text-decoration: none;
+    vertical-align: text-top;
+
+    //add link styles here
+    :hover {
+      transition: ease-in;
+      color: ${props => props.theme.colors.blue};
+    }
+
     
 
   
@@ -121,4 +160,3 @@ export const StyledMobileNavLinks = styled.div`
 
   
 `
-
