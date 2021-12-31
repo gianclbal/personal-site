@@ -8,11 +8,11 @@ export const Contact = () => {
   const socialMedia = [
     {
       name: "Instagram",
-      url: "",
+      url: "https://www.instagram.com/gianclbal/",
     },
     {
       name: "Twitter",
-      url: "",
+      url: "https://twitter.com/gianclbal",
     },
   ]
 
@@ -59,7 +59,7 @@ export const Contact = () => {
                 <a href={`mailto:${email}`}  aria-label="Send an email to Gian"
                 target="_blank"
                 rel="noreferrer">
-                  giancbaldonado@gmail.com{" "}
+                  giancbaldonado[at]gmail.com{" "}
                   <img src={externalicon} alt="external" />
                 </a>
               </li>

@@ -29,14 +29,20 @@ export const AboutTabs = () => {
                 <H4>About Me</H4>
                 <P size="small">
                   {" "}
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit, sed quia non numquam eius
-                  modi tempora incidunt ut labore et dolore magnam aliquam
-                  quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-                  exercitationem ullam corporis suscipit laboriosam, nisi ut
-                  aliquid ex ea commodi consequatur? Recent technologies I've
-                  worked with: React, Java, Docker Recent technologies I've
-                  worked with: React, Java, Docker
+                  My name is Gian Carlo L. Baldonado, and I am software engineer
+                  aspiring data scientist. My interests lie in the applications
+                  of data science and machine learning to advance trustworthy
+                  and equitable artificial intelligence research. Specifically,
+                  I am interested in leveraging natural language processing
+                  (NLP) to analyze micro-aggressions - a covert form of racism
+                  or everyday discrimination - from a corpus. Some recent
+                  technologies I’ve worked with are Python and its libraries
+                  NumPy, Pandas, and Scikit-learn (see Skills for more info).
+                  <br/>
+                  <br/>
+                  I’m currently applying to graduate programs for fall 2022.
+                  Prior to this, I’m also looking for a research program for the
+                  summer of 2022.
                 </P>
               </div>
             </div>
@@ -56,21 +62,30 @@ export const AboutTabs = () => {
                 <H4>Education</H4>
                 <P size="regular">
                   {" "}
-                  San Francisco State University, 
-                  <br/>
+                  San Francisco State University,
+                  <br />
                   BS in Computer Science, 3.64
-                  <br/>
+                  <br />
                   Minor in Asian American Studies
-                  <br/>
-                  <br/>
+                  <br />
+                  <br />
                 </P>
-                  <P size="small">
-                  Activities and Affiliations: Pilipino American Collegiate Endeavor, Cultural Coordinator (2019-2020); Campus Recreation Assessment Student Manager (2018-2020)
-                
-                    </P>
-                  <br/>
-                  <br/>
-              
+                <P size="small">
+                  I graduated San Francisco State University in May 2021 with a
+                  B.S. in Computer Science and Minor in Asian American Studies
+                  (GPA 3.64). For some time in college, I struggled to bridge
+                  both my passions for social science and computer science until
+                  I took a Human-Computer Interactions class that introduce that
+                  paved the way towards my interests in interdisciplinary
+                  research and human-centered artificial intelligence.
+                  {""}
+                  My goal to leverage social social and data science to engage
+                  in interdisciplinary research is the source of my interest in
+                  advancing my academic pursuit with a research and graduate
+                  program.
+                </P>
+                <br />
+                <br />
               </div>
             </div>
           </StyledContent>
@@ -89,14 +104,21 @@ export const AboutTabs = () => {
                 <H6>Skills</H6>
                 <P size="small">
                   {" "}
-                  My current skills include working in web development with an agile, user-centered design approach. Recent technologies I use in my projects are React and Redux, Express, Java, and Python.
+                  Some recent technologies I’ve worked with are Python and its
+                  libraries NumPy, Pandas, and Scikit-learn. I’m proficient in
+                  ReactJS and building APIs with Express. I have a basic
+                  understanding of Java, MongoDB, and relational databases with
+                  SQL. Check out my some of my projects below.
                 </P>
               </div>
               <div className="styledText">
                 <H6>Interests</H6>
                 <P size="small">
                   {" "}
-                  My interests lie in research and using my coding skills to discovering insights that create social impact. Particularly, I want to do research on Natural Language Processing and how its applications can help determine implicit bias or racism for positive social change.
+                  My interests are in NLP, computational-social relationship
+                  research, and data analysis and collection. Oh, and I also
+                  like writing, watching anime, and learning new languages. I’m
+                  currently learning Thai.
                 </P>
               </div>
             </div>
@@ -116,14 +138,20 @@ export const AboutTabs = () => {
                 <H4>Community</H4>
                 <P size="small">
                   {" "}
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit, sed quia non numquam eius
-                  modi tempora incidunt ut labore et dolore magnam aliquam
-                  quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-                  exercitationem ullam corporis suscipit laboriosam, nisi ut
-                  aliquid ex ea commodi consequatur? Recent technologies I've
-                  worked with: React, Java, Docker Recent technologies I've
-                  worked with: React, Java, Docker
+                  From 2019-2020, I served as Cultural Coordinator for the
+                  Pilipino American Collegiate Endeavor, a historic student
+                  organization on campus that, along with the Third World
+                  Liberation Front, helped realize the College of Ethnic
+                  Studies. I presented workshops to a total of 20-30 students
+                  for both fall and summer about Filipino and Asian American
+                  cultures. 
+                  <br/>
+                  <br/>
+                  Some of the workshops I presented were about
+                  micro-aggressions and cultural humility. My
+                  community is a big part of the reason why I’m pursuing
+                  interdisciplinary research with data science and social
+                  science.
                 </P>
               </div>
             </div>
