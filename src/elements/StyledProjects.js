@@ -105,6 +105,10 @@ export const StyledProject = styled.li`
           filter: invert(62%) sepia(75%) saturate(7499%) hue-rotate(214deg) brightness(95%) contrast(103%);
         }
 
+        .github-icon {
+          margin-right: 20px;
+        }
+
         :hover,
         :focus{
            img {
